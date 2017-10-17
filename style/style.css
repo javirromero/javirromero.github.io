@@ -187,3 +187,23 @@ figure figcaption {
     transition: all 0.5s ease;
 
 }
+
+.andacollo_now {
+  width: 50%;
+}
+
+.display-left{
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%)
+}
+
+.display-right{
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%)
+}
