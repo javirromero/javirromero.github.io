@@ -35,6 +35,8 @@
 
     <div class="andacollo_now_div">
 
+    <h2>Andacollo Now</h2>
+
     <img class="andacollo_now" src="./portfolio/andacollo_now/andacollo_now_00.jpg">
     <img class="andacollo_now" src="./portfolio/andacollo_now/andacollo_now_01.jpg">
     <img class="andacollo_now" src="./portfolio/andacollo_now/andacollo_now_02.jpg">
@@ -60,22 +62,75 @@
     <img class="andacollo_now" src="./portfolio/andacollo_now/andacollo_now_22.jpg">
     <img class="andacollo_now" src="./portfolio/andacollo_now/andacollo_now_23.jpg">
 
-    <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+    <button class="display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+    <button class="display-right" onclick="plusDivs(+1, 0)">&#10095;</button>
 
   </div>
 
+  <div class="long_walks_with_the_death_div">
+
+  <h2>Long Walks With The Death</h2>
+
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_00.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_01.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_02.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_03.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_04.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_05.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_06.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_07.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_08.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_09.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_10.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_11.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_12.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_13.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_14.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_15.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_16.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_17.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_18.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_19.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_20.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_21.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_22.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_23.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_24.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_25.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_26.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_27.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_28.jpg">
+  <img class="long_walks_with_the_death" src="./portfolio/long_walks_with_the_death/long_walks_with_the_death_29.jpg">
+
+
+  <button class="display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="display-right" onclick="plusDivs(+1, 1)">&#10095;</button>
+
+</div>
+
     <script>
     var slideIndex = 1;
-    showDivs(slideIndex);
+    showDivs(slideIndex, 0);
+    showDivs(slideIndex, 1);
+    showDivs(slideIndex, 2);
 
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
+    function plusDivs(n, which) {
+      showDivs(slideIndex += n, which);
     }
 
-    function showDivs(n) {
+    function showDivs(n, which) {
       var i;
-      var x = document.getElementsByClassName("andacollo_now");
+      var x;
+      if (which == 0) {
+        x = document.getElementsByClassName("andacollo_now");
+      }
+      if (which == 1) {
+        x = document.getElementsByClassName("long_walks_with_the_death");
+      }
+      if (which == 2) {
+        x = document.getElementsByClassName("andacollo_now");
+      }
+      x = document.getElementsByClassName("andacollo_now");
       if (n > x.length) {slideIndex = 1}
       if (n < 1) {slideIndex = x.length} ;
       for (i = 0; i < x.length; i++) {
