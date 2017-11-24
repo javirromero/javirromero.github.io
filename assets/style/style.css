@@ -99,6 +99,12 @@ a:hover, a h1:hover, a h2:hover {
   text-decoration: none;
 }
 
+.painting {
+  width: 100%;
+}
+
+
+
 a.project h3 {
   margin: 0;
   font-size: 1em;
