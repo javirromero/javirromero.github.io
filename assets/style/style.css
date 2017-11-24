@@ -13,6 +13,7 @@ p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
     /*display in block*/
     display: block;
+    text-transform: uppercase;
     /*reset margin and padding for google chrome */
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
