@@ -99,6 +99,10 @@ a:hover, a h1:hover, a h2:hover {
   text-decoration: none;
 }
 
+.music {
+  width: 100%;
+}
+
 .painting {
   width: 100%;
 }
