@@ -104,6 +104,12 @@ a:hover, a h1:hover, a h2:hover {
   padding: 10%;
 }
 
+#coverPictureDiv{
+  width: 100%;
+  padding: 10%;
+}
+
+
 .music {
   width: 100%;
 }
