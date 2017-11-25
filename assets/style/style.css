@@ -108,6 +108,7 @@ a:hover, a h1:hover, a h2:hover {
   display: block;
   margin: auto;
   width: 40%;
+  padding: 10%;
 }
 
 .music {
