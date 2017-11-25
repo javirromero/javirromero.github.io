@@ -146,6 +146,9 @@ a.project h3 {
   }
   #myNavMenu a {
       float: left;
-      width: 50%;
+      width: 100%;
+  }
+  #coverPicture {
+      max-width: 80%;
   }
 }
