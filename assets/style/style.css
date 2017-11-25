@@ -99,7 +99,7 @@ a:hover, a h1:hover, a h2:hover {
   text-decoration: none;
 }
 
-.about {
+#about{
   width: 80%;
   padding: 5%;
 }
