@@ -105,6 +105,7 @@ a:hover, a h1:hover, a h2:hover {
 
 .music {
   width: 100%;
+  max-height: 360px;
 }
 
 .painting {
