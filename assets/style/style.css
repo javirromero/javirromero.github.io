@@ -12,7 +12,7 @@ html, body, div {
   outline: 0;
   border: 0;
 }
-/*set font to Avantgarde*/
+/*set font to Helvetica*/
 /*normal text, no italics, no bold*/
 /*centered text*/
 /*display in block*/
@@ -20,7 +20,7 @@ html, body, div {
 /*no padding (inner space of element)*/
 
 p, h1, h2, h3, h4, h5, h6 {
-    font-family: Avantgarde;
+    font-family: "Helvetica", sans-serif;
     font-weight: normal;
     text-align: center;
     display: block;
