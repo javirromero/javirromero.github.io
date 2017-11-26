@@ -37,11 +37,10 @@ p {
 }
 
   /*reset of format*/
-  /*set font to avantgarde*/
   /*set color to black*/
 a {
     text-decoration: none;
-    font-family: Avantgarde;
+    font-family:"Helvetica", sans-serif;
     color: black;
     margin: 0;
     outline: 0;
